@@ -13,5 +13,7 @@ def input_to_index(number)
 end
 
 def move(x, index, value ="X")
+  puts index
   x[index] = value
+  x
 end
