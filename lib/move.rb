@@ -12,7 +12,7 @@ def input_to_index(number)
   "#{number}".to_i - 1
 end
 
-def move(x, index, value ="X")
+def move(x, index, value = "X")
   puts index
   x[index] = value
 end
