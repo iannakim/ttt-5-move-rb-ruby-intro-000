@@ -14,5 +14,4 @@ end
 
 def move(x, index, value ="X")
   x[index] = value
-  x
 end
